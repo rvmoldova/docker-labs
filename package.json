@@ -1,0 +1,29 @@
+{
+  "name": "docker-labs",
+  "version": "1.0.0",
+  "description": "A wrapper for the docker-machine CLI",
+  "homepage": "https://github.com/rvmoldova/docker-labs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test"
+  },
+  "keywords": [
+    "docker",
+    "machine",
+    "dockermachine",
+    "docker-machine"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "q": "~1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "chai": "~2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvmoldova/docker-labs.git"
+  }
+}
